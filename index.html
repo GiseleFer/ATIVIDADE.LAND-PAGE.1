@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!--<meta name="viewport" content="width=device-width, initial-scale=1.0">-->
+    <title>land Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <section class="sec">
+        <!--inicio secao-->
+        <header>
+            <a href="#"><img src="" alt=""
+                    class=""></a>
+            <ul>
+                <li><a href="https://www.apple.com/br/ios/home/">Home</a></li>
+                <li><a href="https://www.apple.com/br/?afid=p238%7CsjxMpgjaJ-dc_mtid_1870765e38482_pcrid_592523020777_pgrid_17049243298_&cid=aos-br-kwgo-brand--slid---product-">Product</a></li>
+                <li><a href="https://www.apple.com/shop/accessories/all/whats-new">What's New</a></li>
+                <li><a href="https://www.apple.com/apple-news/">NewsLesther</a></li>
+                <li><a href="https://www.apple.com/br/contact/">Contact</a></li>
+            </ul>
+        </header>
+        <!--fim header-->
+
+        <div class="content">
+            <!--inicio content-->
+
+            <div class="textbox">
+                <!--inicio textbox-->
+                <h2>THIS IS<br><span>IPHONE</span></h2>
+                <p>LANÇAMENTOS IPHONE 13</p>
+                <a href="https://www.apple.com/br/apple-events/">View New Releases</a>
+            </div>
+            <!--fim do textbox-->
+
+            <div class="imgbox">
+                <!--inicio do imgbox-->
+
+
+                <img src="/ATIVIDADE.LAND PAGE.1/imagens/APPLE -azul-removebg-preview.png" alt="" class="APPLE">
+
+            </div>
+            <!--fim do imgbox-->
+
+        </div>
+        <!--fim do content-->
+
+        <ul class="thumb">
+            <!--inicio do thumb-->
+            <li><img class="" src="/ATIVIDADE.LAND PAGE.1/imagens/APPLE -azul-removebg-preview.png"
+                    onclick="imgSlider('/ATIVIDADE.LAND PAGE.1/imagens/APPLE -azul-removebg-preview.png');" ></li>
+            <li><img class="" src="/ATIVIDADE.LAND PAGE.1/imagens/APPLE -red2-removebg-preview.png"
+                    onclick="imgSlider('/ATIVIDADE.LAND PAGE.1/imagens/APPLE -red2-removebg-preview.png');"></li>
+            <li><img class="" src="/ATIVIDADE.LAND PAGE.1/imagens/APPLE -preto-removebg-preview.png"
+                    onclick="imgSlider('/ATIVIDADE.LAND PAGE.1/imagens/APPLE -preto-removebg-preview.png');"></li>
+
+        </ul>
+        <!--fim do thumb-->
+
+        <ul class="sci">
+            <!--inicio do sci-->
+            <li><a href="https://instagram.com/apple?igshid=YmMYMTA2M2Y="><img src="/ATIVIDADE.LAND PAGE.1/imagens/instagram.png"></a></li>
+            <li><a href="https://www.facebook.com/apple/"><img src="/ATIVIDADE.LAND PAGE.1/imagens/facebook.png"></a></li>
+            <li><a href="https://twitter.com/apple"><img src="/ATIVIDADE.LAND PAGE.1/imagens/twitter.png"></a></li>
+            
+        </ul>
+        <!--fim do sci-->
+
+    </section>
+    <!--fim seção-->
+
+    <script type="text/javascript">
+        function imgSlider(anything) {
+            document.querySelector('.APPLE').src = anything;
+        }
+        function changeBgcolor(color) {
+            const sec = document.querySelector('.sec');
+            sec.style.background = color;
+        }
+
+    </script>
+
+</body>
+
+</html>
